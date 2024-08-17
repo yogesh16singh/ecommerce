@@ -72,9 +72,9 @@ const Cart = () => {
 
     setTimeout(() => {
       const options = {
-        key: "rzp_test_6o6Suqp4azcEtb",
-        amount: amount,
-        currency: "INR",
+        key: "rzp_test_UjGPIwbgTuLTWn",
+        amount: parseInt(amount * 100), // amount,
+        currency: "USD",
         name: "Profile",
         description: "Thank you for shopping with us!",
         image: logo,
